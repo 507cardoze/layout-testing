@@ -1,0 +1,70 @@
+.main-layout {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background: #393fd0;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	.background-image-1 {
+		position: absolute;
+		left: 12.8%;
+		right: 23.38%;
+		top: -1%;
+		bottom: 70.04%;
+		z-index: 0;
+	}
+
+	.background-image-2 {
+		position: absolute;
+		left: -0.93%;
+		right: 37.53%;
+		top: 30.31%;
+		bottom: 37.71%;
+		z-index: 0;
+	}
+
+	.background-image-3 {
+		position: absolute;
+		left: 72%;
+		right: -47.72%;
+		top: 23.89%;
+		bottom: 35.47%;
+		z-index: 0;
+	}
+
+	.app-bar {
+		width: 100%;
+		height: 45px;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		color: white;
+		padding-right: 5%;
+	}
+	.logo-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 160px;
+		.logo {
+			width: 91.6px;
+			height: 146.8px;
+			z-index: 1;
+		}
+	}
+
+	.content {
+		width: 100%;
+		min-height: 607px;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		padding: 5%;
+		z-index: 1;
+	}
+}

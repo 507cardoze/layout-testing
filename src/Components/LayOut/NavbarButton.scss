@@ -1,0 +1,16 @@
+.bar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	height: 40%;
+
+	.bar1 {
+		border-bottom: 2px solid #ffffff;
+		width: 30px;
+	}
+	.bar2 {
+		border-bottom: 2px solid #ffffff;
+		width: 30px;
+	}
+}

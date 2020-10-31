@@ -1,0 +1,31 @@
+.input-group {
+	width: 279px;
+	display: flex;
+	flex-direction: column;
+	label {
+		height: 18px;
+		font-family: Dosis;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 18px;
+		color: #f5f5f5;
+		text-transform: uppercase;
+	}
+	input {
+		color: #666;
+		background: transparent;
+		font-family: Dosis;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 20px;
+		color: rgba(255, 255, 255, 0.5);
+		border: none;
+		border-bottom: 1px solid white;
+		outline: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+	}
+}

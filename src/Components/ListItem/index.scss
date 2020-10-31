@@ -1,0 +1,16 @@
+.item {
+	width: 100%;
+	font-family: Dosis;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 23px;
+	color: #ffffff;
+	height: 55px;
+	text-transform: uppercase;
+	opacity: 0.5;
+
+	&:hover {
+		opacity: 1;
+	}
+}

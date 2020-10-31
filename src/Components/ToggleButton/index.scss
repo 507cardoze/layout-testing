@@ -1,0 +1,27 @@
+.auth-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	font-family: Dosis;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	background-color: rgba(58, 48, 97, 0.35);
+
+	&:hover {
+		background-color: rgba(58, 48, 97, 0.9);
+	}
+
+	&:active {
+		background-color: rgba(58, 48, 97, 0.9);
+	}
+
+	.activado {
+		background-color: rgba(58, 48, 97, 0.9);
+	}
+}
