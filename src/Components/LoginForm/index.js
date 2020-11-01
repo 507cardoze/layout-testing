@@ -21,13 +21,14 @@ const LoginForm = () => {
            type="email"
            name="email"
            label="email"
-           value="ejemplo@email.com"
+           defaultValue="ejemplo@email.com"
         />
         <CustomInput 
            type="password"
            name="password"
            label="contraseña"
-           value="*12345"
+           defaultValue="*12345"
+           autocomplete="current-password"
         />
         <FormControlLabel className="switch-label" control={<Switch
                defaultChecked

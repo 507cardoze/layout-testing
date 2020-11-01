@@ -17,25 +17,26 @@ const RegisterForm = () => {
        type="text"
        name="nombre"
        label="nombre"
-       value=""
+       required
+       defaultValue=""
     />
     <CustomInput 
        type="text"
        name="apellido"
        label="apellido"
-       value="Perez"
+       defaultValue="Perez"
     />
     <CustomInput 
        type="email"
        name="email"
        label="email"
-       value="ejemplo@email.com"
+       defaultValue="ejemplo@email.com"
     />
     <CustomInput 
        type="password"
        name="password"
        label="contraseña"
-       value="*12345"
+       defaultValue="*12345"
     />
     <CustomButtom type="submit" label="Registro" />
       </form>)

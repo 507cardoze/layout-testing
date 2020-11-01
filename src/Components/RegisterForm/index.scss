@@ -1,9 +1,11 @@
 .register-form {
-	width: 327px;
+	width: 80%;
+	max-width: 327px;
 	height: 441px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 	background-color: rgba(58, 48, 97, 0.9);
+	border-radius: 0px 0px 6px 6px;
 }

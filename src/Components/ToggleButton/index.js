@@ -1,7 +1,11 @@
 import './index.scss'
 
-const ToggleButton = ({action, value}) => (
-<div onClick={()=>action(value)} className="auth-button">{value ? "ingreso" : "registro"}
+const ToggleButton = ({action, value, className}) => (
+<div 
+onClick={()=>action(value)} 
+className={className}
+>
+    {value ? "ingreso" : "registro"}
 </div>
 )
 

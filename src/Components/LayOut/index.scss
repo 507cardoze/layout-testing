@@ -5,34 +5,45 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	background: #393fd0;
-	overflow-y: auto;
-	overflow-x: hidden;
 
 	.background-image-1 {
 		position: absolute;
+		z-index: 0;
 		left: 12.8%;
 		right: 23.38%;
-		top: -1%;
-		bottom: 70.04%;
-		z-index: 0;
+		top: -6.4%;
+		bottom: 71.04%;
+		overflow: hidden;
+		width: 239.31px;
+		height: 287.18px;
+		overflow: visible;
+		stroke-width: 2;
+		stroke-linejoin: round;
+		stroke-linecap: round;
 	}
 
 	.background-image-2 {
 		position: absolute;
-		left: -0.93%;
-		right: 37.53%;
-		top: 30.31%;
+		top: 25.31%;
 		bottom: 37.71%;
+		right: 0%;
+		left: 0%;
 		z-index: 0;
+		width: 223.28px;
+		height: 267.78px;
+		overflow: hidden;
+		transition: all 400ms ease-in-out;
 	}
 
 	.background-image-3 {
 		position: absolute;
-		left: 72%;
-		right: -47.72%;
-		top: 23.89%;
-		bottom: 35.47%;
+		right: 0%;
+		top: 26.89%;
 		z-index: 0;
+		overflow: hidden;
+		width: 283.95px;
+		height: 330px;
+		transition: all 400ms ease-in-out;
 	}
 
 	.app-bar {
@@ -43,28 +54,31 @@
 		align-items: center;
 		color: white;
 		padding-right: 5%;
+		z-index: 1;
 	}
 	.logo-container {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		height: 160px;
 		.logo {
 			width: 91.6px;
-			height: 146.8px;
 			z-index: 1;
+			overflow: visible;
+			stroke: #fff;
+			stroke-width: 2;
+			stroke-linejoin: round;
+			stroke-linecap: round;
 		}
 	}
 
 	.content {
 		width: 100%;
 		min-height: 607px;
-		height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: flex-end;
-		padding: 5%;
+		padding: 30px;
 		z-index: 1;
 	}
 }

@@ -1,5 +1,4 @@
 .item {
-	width: 100%;
 	font-family: Dosis;
 	font-style: normal;
 	font-weight: bold;
@@ -9,6 +8,7 @@
 	height: 55px;
 	text-transform: uppercase;
 	opacity: 0.5;
+	cursor: pointer;
 
 	&:hover {
 		opacity: 1;
